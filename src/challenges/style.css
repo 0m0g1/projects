@@ -1,0 +1,15 @@
+html,
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #cccccc;
+}
+
+.dark-theme {
+    background-color: #202020;
+}

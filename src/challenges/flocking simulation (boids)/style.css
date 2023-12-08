@@ -1,0 +1,32 @@
+html,
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+div {
+    position: absolute;
+    bottom: 0.5%;
+    right: 1%;
+}
+
+div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: red;
+}
