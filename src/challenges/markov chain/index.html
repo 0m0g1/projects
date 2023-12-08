@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div>
+            <textarea type="text" id="text" cols="40" rows="30"></textarea>
+            <input type="file" id="file-input">
+            <pre id="fileContent"></pre>
+            <div style="display: flex; flex-direction: row; gap: 0.25rem; width: 100%;">
+                <label for="order">Order</label>
+                <input type="number" style="width: 5rem;" name="order" id="order" value="1" min="0">
+            </div>
+            <button id="generate-btn">Generate</button>
+        </div>
+        <p id="generated-words"></p>
+    </div>
+    <script type="module" src="text.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
